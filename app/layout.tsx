@@ -2,6 +2,11 @@ import "./styles/globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "My Modern Blog",
+  description: "A clean, modern blog built with Next.js",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -9,9 +14,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body
+        style={{
+          margin: 0,
+          padding: 0,
+          backgroundColor: "#fff8e1", // soft gold background (easy to change later)
+          fontFamily: "system-ui, sans-serif",
+        }}
+      >
         <Header />
-        <main>{children}</main>
+        <main style={{ padding: "2rem", minHeight: "70vh" }}>{children}</main>
         <Footer />
       </body>
     </html>
