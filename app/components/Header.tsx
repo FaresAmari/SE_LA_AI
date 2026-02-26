@@ -11,7 +11,7 @@ export default function Header() {
       }}
     >
       <h1 style={{ margin: 0, fontSize: "2rem", fontWeight: "bold" }}>
-        My Modern Blog
+        South East Louisiana A.I. Meet Up
       </h1>
 
       <nav style={{ marginTop: "0.75rem" }}>
@@ -54,3 +54,4 @@ export default function Header() {
     </header>
   );
 }
+
