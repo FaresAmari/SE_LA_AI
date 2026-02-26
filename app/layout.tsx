@@ -3,9 +3,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "My Modern Blog",
-  description: "A clean, modern blog built with Next.js",
+  title: "South East Louisiana A.I. Meet Up",
+  description: "Connecting the Gulf South through artificial intelligence, innovation, and community.",
 };
+
 
 export default function RootLayout({
   children,
@@ -29,3 +30,4 @@ export default function RootLayout({
     </html>
   );
 }
+
