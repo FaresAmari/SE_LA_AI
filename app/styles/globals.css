@@ -1,18 +1,16 @@
 :root {
-  --red: #E63946;
-  --blue: #1D3557;
-  --white: #FFFFFF;
-  --light: #F1FAEE;
+  --mardi-purple: #6A0DAD;
+  --mardi-green: #3A7D44;
+  --mardi-gold: #FFB400;
+
+  --background: #fff;
+  --text: #222;
 }
 
 body {
-  margin: 0;
+  background: var(--background);
+  color: var(--text);
   font-family: system-ui, sans-serif;
-  background: var(--white);
-  color: var(--blue);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+  margin: 0;
+  padding: 0;
 }
