@@ -244,7 +244,7 @@ export default function ContactPage() {
                 letterSpacing: "-0.01em",
               }}
             >
-              Send Message →
+              Send Message {'>'}
             </button>
           </form>
 
@@ -263,4 +263,5 @@ export default function ContactPage() {
     </main>
   );
 }
+
 
