@@ -146,25 +146,24 @@ export default function ContactPage() {
                 Follow Us
               </p>
               
-                href="www.tiktok.com/@se_la_ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  background: "#010101",
-                  color: "white",
-                  padding: "10px 20px",
-                  borderRadius: "8px",
-                  fontWeight: 700,
-                  textDecoration: "none",
-                  fontSize: "0.9rem",
-                }}
-              >
-                <span style={{ fontSize: "1.1rem" }}>🎵</span>
-                TikTok
-              </a>
+               href="https://www.tiktok.com/@yourhandle"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-flex",
+    alignItems: "center",
+    gap: "8px",
+    background: "#010101",
+    color: "white",
+    padding: "10px 20px",
+    borderRadius: "8px",
+    fontWeight: 700,
+    textDecoration: "none",
+    fontSize: "0.9rem",
+  }}>
+  <span style={{ fontSize: "1.1rem" }}>🎵</span>
+  TikTok
+</a>
             </div>
           </div>
         </div>
@@ -263,5 +262,6 @@ export default function ContactPage() {
     </main>
   );
 }
+
 
 
