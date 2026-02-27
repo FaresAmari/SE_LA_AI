@@ -7,9 +7,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+  "next": "...",
+  "react": "...",
+  "react-dom": "..."
   },
   "devDependencies": {
     "typescript": "latest",
