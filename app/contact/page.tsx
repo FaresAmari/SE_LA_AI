@@ -97,7 +97,7 @@ export default function ContactPage() {
             </h3>
 
             {[
-              { icon: "📧", label: "Email", value: "FaresAmari@Outlook.com", href: "mailto:FaresAmari@Outlook.com" },
+              { icon: "📧", label: "Email", value: "SE_LA_AI@Outlook.com", href: "mailto:SE_LA_AI@Outlook.com" },
               { icon: "📞", label: "Phone", value: "(504) 656-6332", href: "tel:5046566332" },
             ].map((item) => (
               <div key={item.label} style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
