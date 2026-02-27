@@ -146,7 +146,7 @@ export default function ContactPage() {
                 Follow Us
               </p>
               
-                href="https://www.tiktok.com/@yourhandle"
+                href="www.tiktok.com/@se_la_ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -263,3 +263,4 @@ export default function ContactPage() {
     </main>
   );
 }
+
