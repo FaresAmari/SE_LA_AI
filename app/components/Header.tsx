@@ -43,6 +43,7 @@ export default function Header() {
       <nav style={{ display: "flex", alignItems: "center", gap: "8px" }}>
         {[
           { label: "Home", href: "/" },
+          { label: "Events", href: "/events" },
           { label: "Blog", href: "/blog" },
         ].map((link) => (
           <Link key={link.href} href={link.href} style={{
